@@ -1,0 +1,59 @@
+/* * {
+    border: solid red;
+} */
+body {
+    color: black;
+    font-weight: bold;
+    margin: 0px;
+}
+.vert {
+    color: #00ff00;
+}
+
+.or {
+    color: gold;
+}
+
+.enligne {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover {
+    border-bottom: solid #00ff00;
+}
+
+.hero {
+    margin: 0px;
+    background-image: url(./../images/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.but {
+    border-radius: 5px;
+    background-color: gold;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.p100{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
